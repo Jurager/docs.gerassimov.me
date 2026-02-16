@@ -39,6 +39,11 @@ module:
         - source: docs
           target: content/tracker
 
+    - path: github.com/jurager/json-api
+      mounts:
+        - source: docs
+          target: content/json-api
+
 cascade:
   - _target:
       kind: page
@@ -57,6 +62,13 @@ cascade:
   - _target:
       kind: page
       path: /tracker/**
+    type: docs
+    sidebar:
+      open: true
+
+  - _target:
+      kind: page
+      path: /json-api/**
     type: docs
     sidebar:
       open: true
