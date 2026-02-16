@@ -44,6 +44,11 @@ module:
         - source: docs
           target: content/json-api
 
+    - path: github.com/jurager/documentator
+      mounts:
+        - source: docs
+          target: content/documentator
+
 cascade:
   - _target:
       kind: page
@@ -69,6 +74,13 @@ cascade:
   - _target:
       kind: page
       path: /json-api/**
+    type: docs
+    sidebar:
+      open: true
+
+  - _target:
+      kind: page
+      path: /documentator/**
     type: docs
     sidebar:
       open: true
