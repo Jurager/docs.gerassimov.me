@@ -1,0 +1,14 @@
+{{- $url := urls.Parse .Destination -}}
+{{- $link := .Destination -}}
+
+{{- if not $url.IsAbs -}}
+  {{- /* Убираем .md расширение из относительных ссылок */ -}}
+  {{- $link = strings.TrimSuffix ".md" $link -}}
+  {{- $link = strings.TrimSuffix ".MD" $link -}}
+{{- end -}}
+
+<a href="{{ $link | safeURL }}"
+   {{- with .Title }} title="{{ . }}"{{ end -}}
+   {{- if $url.IsAbs }} target="_blank" rel="noopener"{{ end -}}>
+  {{- .Text | safeHTML -}}
+</a>
