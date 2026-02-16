@@ -5,7 +5,6 @@ on:
     branches: ["main"]
   workflow_dispatch:
   schedule:
-    # Обновляем документацию каждый день в 3:00 UTC
     - cron: '0 3 * * *'
 
 permissions:
@@ -25,7 +24,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      HUGO_VERSION: 0.155.3
     steps:
       - name: Install Hugo CLI
         run: |
