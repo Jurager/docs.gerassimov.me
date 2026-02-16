@@ -1,0 +1,46 @@
+baseURL: 'https://docs.gerassimov.me/'
+languageCode: ru-RU
+title: 'Docs'
+
+
+module:
+
+  imports:
+    - path: github.com/imfing/hextra
+    
+    - path: github.com/jurager/microservice
+      mounts:
+        - source: docs
+          target: content/docs/microservice
+    
+    - path: github.com/jurager/passport
+      mounts:
+        - source: docs
+          target: content/docs/passport
+
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  
+  page:
+    width: wide
+  
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: true
+    base: "https://github.com/jurager"
+
+# Меню
+menu:
+  main:
+    - name: Документация
+      pageRef: /docs
+      weight: 1
+    - name: GitHub
+      url: "https://github.com/jurager"
+      weight: 2
