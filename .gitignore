@@ -1,17 +1,10 @@
-# Hugo
 /public/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
-
-# Go modules
 go.sum
-
-# OS
 .DS_Store
 Thumbs.db
-
-# IDE
 .idea/
 .vscode/
 *.swp

@@ -2,7 +2,6 @@
 {{- $link := .Destination -}}
 
 {{- if not $url.IsAbs -}}
-  {{- /* Убираем .md расширение из относительных ссылок */ -}}
   {{- $link = strings.TrimSuffix ".md" $link -}}
   {{- $link = strings.TrimSuffix ".MD" $link -}}
 {{- end -}}
