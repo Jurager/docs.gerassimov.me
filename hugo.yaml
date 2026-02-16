@@ -53,9 +53,6 @@ module:
       mounts:
         - source: docs
           target: content/teams
-        - source: docs
-          target: static/teams
-          includeFiles: "**.{png,jpg,jpeg,gif,svg,webp}"
 
 cascade:
   - _target:
