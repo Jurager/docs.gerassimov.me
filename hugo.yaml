@@ -34,6 +34,11 @@ module:
         - source: docs
           target: content/passport
 
+    - path: github.com/jurager/tracker
+      mounts:
+        - source: docs
+          target: content/tracker
+
 cascade:
   - _target:
       kind: page
@@ -45,6 +50,13 @@ cascade:
   - _target:
       kind: page
       path: /passport/**
+    type: docs
+    sidebar:
+      open: true
+
+  - _target:
+      kind: page
+      path: /tracker/**
     type: docs
     sidebar:
       open: true
