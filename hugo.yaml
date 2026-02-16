@@ -52,7 +52,10 @@ module:
     - path: github.com/jurager/teams
       mounts:
         - source: docs
-          target: content/teams
+          target: content/microservice
+        - source: docs
+          target: static/microservice
+          includeFiles: "**.{png,jpg,jpeg,gif,svg,webp}"
 
 cascade:
   - _target:
