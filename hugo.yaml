@@ -49,6 +49,11 @@ module:
         - source: docs
           target: content/documentator
 
+    - path: github.com/jurager/teams
+      mounts:
+        - source: docs
+          target: content/teams
+
 cascade:
   - _target:
       kind: page
@@ -81,6 +86,13 @@ cascade:
   - _target:
       kind: page
       path: /documentator/**
+    type: docs
+    sidebar:
+      open: true
+
+  - _target:
+      kind: page
+      path: /teams/**
     type: docs
     sidebar:
       open: true
