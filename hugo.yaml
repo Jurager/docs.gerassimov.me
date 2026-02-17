@@ -2,11 +2,16 @@ baseURL: 'https://docs.gerassimov.me/'
 languageCode: ru-RU
 title: 'Docs'
 enableGitInfo: true
+canonifyURLs: true
+
+services:
+  googleAnalytics:
+    ID: G-3ZNXPC8XKW
 
 outputs:
-  home: [html, llms]
-  page: [html, markdown]
-  section: [html, rss, markdown]
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
 
 menu:
   main:
