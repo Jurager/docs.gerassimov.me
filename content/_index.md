@@ -12,13 +12,13 @@ toc: false
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  Build modern websites&nbsp;<br class="hx:sm:block hx:hidden" />with Markdown and Hugo
+  Building Better&nbsp;<br class="hx:sm:block hx:hidden" />Laravel Tools for Developers
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  Fast, batteries-included Hugo theme&nbsp;<br class="hx:sm:block hx:hidden" />for creating beautiful static websites
+  A growing collection of open-source packages,<br class="hx:sm:block hx:hidden" />focused on clean architecture, performance, and developer experience.
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -30,7 +30,6 @@ toc: false
     title="Fast and Full-featured"
     subtitle="Simple and easy to use, yet powerful and feature-rich."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="images/hextra-doc.webp"
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
@@ -38,7 +37,6 @@ toc: false
     title="Markdown is All You Need"
     subtitle="Compose with just Markdown. Enrich with Shortcode components."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
-    image="images/hextra-markdown.webp"
     imageClass="hx:top-[40%] hx:left-[36px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}
@@ -46,7 +44,6 @@ toc: false
     title="Full Text Search"
     subtitle="Built-in full text search with FlexSearch, no extra setup required."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="images/hextra-search.webp"
     imageClass="hx:top-[40%] hx:left-[36px] hx:w-[110%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
