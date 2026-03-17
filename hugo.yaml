@@ -59,6 +59,11 @@ module:
         - source: docs
           target: content/teams
 
+    - path: github.com/jurager/eav
+      mounts:
+        - source: docs
+          target: content/eav
+
 cascade:
   - _target:
       kind: page
@@ -98,6 +103,13 @@ cascade:
   - _target:
       kind: page
       path: /teams/**
+    type: docs
+    sidebar:
+      open: true
+
+  - _target:
+      kind: page
+      path: /eav/**
     type: docs
     sidebar:
       open: true
