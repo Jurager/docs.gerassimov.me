@@ -26,14 +26,15 @@ toc: false
 <div class="hx:mt-6"></div>
 
 {{< hextra/feature-grid >}}
-  {{< hextra/feature-card
+  [{{< hextra/feature-card
     title="jurager/teams"
     subtitle="Manage multi-tenant teams with dynamic roles, user groups, and team-specific permissions, plus optional global access across all teams."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     image="images/teams.webp"
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-  >}}
+  >}}](/teams/)
+  {{/*
   {{< hextra/feature-card
     title="Markdown is All You Need"
     subtitle="Compose with just Markdown. Enrich with Shortcode components."
@@ -71,4 +72,5 @@ toc: false
     icon="sparkles"
     subtitle="Syntax highlighting / Table of contents / SEO / RSS / LaTeX / Mermaid / Customizable / and more..."
   >}}
+  */}}
 {{< /hextra/feature-grid >}}
