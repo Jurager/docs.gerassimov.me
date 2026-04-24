@@ -26,36 +26,41 @@ toc: false
 <div class="hx:mt-6"></div>
 
 {{< hextra/feature-grid >}}
-  [{{< hextra/feature-card
+  {{< hextra/feature-card
     title="jurager/teams"
     subtitle="Manage multi-tenant teams with dynamic roles, user groups, and team-specific permissions, plus optional global access across all teams."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     image="images/teams.webp"
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-  >}}](/teams/)
-  [{{< hextra/feature-card
+    link="/teams/"
+  >}}
+  {{< hextra/feature-card
     title="jurager/passport"
     subtitle="Single sign-on for Laravel — centralized user repository with broker authentication, session management, and authentication history tracking."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(59,130,246,0.15),hsla(0,0%,100%,0));"
-  >}}](/passport/)
-  [{{< hextra/feature-card
+    link="/passport/"
+  >}}
+  {{< hextra/feature-card
     title="jurager/microservice"
     subtitle="Secure HTTP communication between Laravel microservices with HMAC-signed requests, service discovery via Redis or DNS, and idempotency support."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(34,197,94,0.15),hsla(0,0%,100%,0));"
-  >}}](/microservice/)
-  [{{< hextra/feature-card
+    link="/microservice/"
+  >}}
+  {{< hextra/feature-card
     title="jurager/documentator"
     subtitle="Automatically generate OpenAPI specifications by analyzing your application's routes, validation rules, and API resources."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(251,146,60,0.15),hsla(0,0%,100%,0));"
-  >}}](/documentator/)
-  [{{< hextra/feature-card
+    link="/documentator/"
+  >}}
+  {{< hextra/feature-card
     title="jurager/eav"
     subtitle="Attach dynamic typed attributes to any Eloquent model without schema migrations, with support for localization and attribute inheritance."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(245,158,11,0.15),hsla(0,0%,100%,0));"
-  >}}](/eav/)
+    link="/eav/"
+  >}}
 {{< /hextra/feature-grid >}}
