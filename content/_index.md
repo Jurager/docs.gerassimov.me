@@ -48,6 +48,8 @@ toc: false
     title="jurager/microservice"
     subtitle="Secure HTTP communication between Laravel microservices with HMAC-signed requests, service discovery via Redis or DNS, and idempotency support."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
+    image="images/microservice.webp"
+    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(34,197,94,0.15),hsla(0,0%,100%,0));"
     link="/microservice/"
   >}}
