@@ -52,15 +52,13 @@ toc: false
   {{< hextra/feature-card
     title="jurager/documentator"
     subtitle="Automatically generate OpenAPI specifications by analyzing your application's routes, validation rules, and API resources."
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(251,146,60,0.15),hsla(0,0%,100%,0));"
     link="/documentator/"
   >}}
   {{< hextra/feature-card
     title="jurager/eav"
     subtitle="Attach dynamic typed attributes to any Eloquent model without schema migrations, with support for localization and attribute inheritance."
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(245,158,11,0.15),hsla(0,0%,100%,0));"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(20,184,166,0.15),hsla(0,0%,100%,0));"
     link="/eav/"
   >}}
 {{< /hextra/feature-grid >}}
