@@ -39,6 +39,8 @@ toc: false
     title="jurager/passport"
     subtitle="Single sign-on for Laravel — centralized user repository with broker authentication, session management, and authentication history tracking."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
+    image="images/sso.webp"
+    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(59,130,246,0.15),hsla(0,0%,100%,0));"
     link="/passport/"
   >}}
