@@ -59,6 +59,11 @@ module:
         - source: docs
           target: content/eav
 
+    - path: github.com/jurager/media
+      mounts:
+        - source: docs
+          target: content/media
+
 cascade:
   - _target:
       kind: page
@@ -98,6 +103,13 @@ cascade:
   - _target:
       kind: page
       path: /eav/**
+    type: docs
+    sidebar:
+      open: true
+
+  - _target:
+      kind: page
+      path: /media/**
     type: docs
     sidebar:
       open: true
