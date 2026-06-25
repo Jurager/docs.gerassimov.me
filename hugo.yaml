@@ -64,6 +64,11 @@ module:
         - source: docs
           target: content/media
 
+     - path: github.com/jurager/filterable
+      mounts:
+        - source: docs
+          target: content/filterable
+
 cascade:
   - _target:
       kind: page
@@ -110,6 +115,13 @@ cascade:
   - _target:
       kind: page
       path: /media/**
+    type: docs
+    sidebar:
+      open: true
+
+  - _target:
+      kind: page
+      path: /filterable/**
     type: docs
     sidebar:
       open: true
