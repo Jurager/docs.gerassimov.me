@@ -64,7 +64,7 @@ module:
         - source: docs
           target: content/media
 
-     - path: github.com/jurager/filterable
+    - path: github.com/jurager/filterable
       mounts:
         - source: docs
           target: content/filterable
