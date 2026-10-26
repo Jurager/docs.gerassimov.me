@@ -1,5 +1,5 @@
 baseURL: 'https://docs.gerassimov.me/'
-languageCode: ru-RU
+locale: ru-RU
 title: 'jurager/docs'
 enableGitInfo: true
 canonifyURLs: true
@@ -70,56 +70,56 @@ module:
           target: content/filterable
 
 cascade:
-  - _target:
+  - target:
       kind: page
       path: /microservice/**
     type: docs
     sidebar:
       open: true
 
-  - _target:
+  - target:
       kind: page
       path: /passport/**
     type: docs
     sidebar:
       open: true
 
-  - _target:
+  - target:
       kind: page
       path: /tracker/**
     type: docs
     sidebar:
       open: true
 
-  - _target:
+  - target:
       kind: page
       path: /documentator/**
     type: docs
     sidebar:
       open: true
 
-  - _target:
+  - target:
       kind: page
       path: /teams/**
     type: docs
     sidebar:
       open: true
 
-  - _target:
+  - target:
       kind: page
       path: /eav/**
     type: docs
     sidebar:
       open: true
 
-  - _target:
+  - target:
       kind: page
       path: /media/**
     type: docs
     sidebar:
       open: true
 
-  - _target:
+  - target:
       kind: page
       path: /filterable/**
     type: docs

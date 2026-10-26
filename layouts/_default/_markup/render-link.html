@@ -1,9 +1,16 @@
 {{- $url := urls.Parse .Destination -}}
 {{- $link := .Destination -}}
 
-{{- if not $url.IsAbs -}}
-  {{- $link = strings.TrimSuffix ".md" $link -}}
-  {{- $link = strings.TrimSuffix ".MD" $link -}}
+{{- /* Point links to other .md files at their pages, keeping the #anchor, so they work on any page depth. */ -}}
+{{- if and (not $url.IsAbs) (strings.HasSuffix (lower $url.Path) ".md") -}}
+  {{- with $.PageInner.GetPage (strings.TrimPrefix "./" $url.Path) -}}
+    {{- $link = .RelPermalink -}}
+    {{- with $url.Fragment -}}
+      {{- $link = printf "%s#%s" $link . -}}
+    {{- end -}}
+  {{- else -}}
+    {{- warnf "%s: no page for link %q" $.PageInner.RelPermalink $.Destination -}}
+  {{- end -}}
 {{- end -}}
 
 <a href="{{ $link | safeURL }}"
